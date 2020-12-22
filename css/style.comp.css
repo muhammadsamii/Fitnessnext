@@ -236,7 +236,6 @@ body {
   grid-template-rows: repeat(11, minmax(min-content, 9rem));
   grid-template-columns: repeat(12, minmax(min-content, 9rem)); }
   .story__img {
-    height: 100%;
     width: 100%;
     grid-column: 3 / 11;
     align-self: center;
@@ -252,7 +251,7 @@ body {
   .story__text {
     grid-column: 7 / 12;
     align-self: end;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.7rem;
     font-weight: 300;
     color: #2a2727;
